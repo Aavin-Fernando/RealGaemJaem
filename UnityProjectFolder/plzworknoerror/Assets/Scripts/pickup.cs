@@ -13,19 +13,7 @@ public class pickup : MonoBehaviour
     public float pickupspeed;
     public Transform Pickupdestination;
     public bool somethinginhand;
-    /* public Transform PickDest;
-private void OnMouseDown()
-{
-GetComponent<Rigidbody>().useGravity = false;
-this.transform.position = PickDest.position;
-this.transform.parent = GameObject.Find("pickupdest").transform;
-}
 
-private void OnMouseUp()
-{
-this.transform.parent = null;
-GetComponent<Rigidbody>().useGravity = true;
-} //this part is used for the pickup of objects */
 
     private void Update()
     {
