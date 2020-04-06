@@ -1,0 +1,31 @@
+Base path: 'C:/Users/Aavin/Documents/UNITY(editors)/2019.3.7f1/Editor/Data', plugins path 'C:/Users/Aavin/Documents/UNITY(editors)/2019.3.7f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=848 outsize=330 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17994 outsize=8303 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=10384 outsize=743592 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=40246 outsize=1522 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1113 outsize=975 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9134 outsize=7435 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5056 outsize=2708 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=10338 outsize=3581 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15784 outsize=39970 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15784 outsize=15321 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15784 outsize=66593 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=11045 outsize=9644 ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7868 outsize=5598 kw=DECALS_3RT _NORMALMAP_TANGENT_SPACE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Unhandled exception: Protocol error - unexpected end of data (did the Editor crash?)
+
+Quitting shader compiler process

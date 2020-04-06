@@ -1,0 +1,23 @@
+Base path: 'C:/Users/Aavin/Documents/UNITY(editors)/2019.3.7f1/Editor/Data', plugins path 'C:/Users/Aavin/Documents/UNITY(editors)/2019.3.7f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=10868 outsize=4877 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=40246 outsize=34940 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9134 outsize=12677 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3012 outsize=1865 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=10338 outsize=4045 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15784 outsize=64144 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15784 outsize=47220 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5893 outsize=7136 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=11045 outsize=1413 ok=1
+Unhandled exception: Protocol error - unexpected end of data (did the Editor crash?)
+
+Quitting shader compiler process

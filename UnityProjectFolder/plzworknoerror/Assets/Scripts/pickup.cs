@@ -12,33 +12,32 @@ public class pickup : MonoBehaviour
     public float pickupspeed;
     public Transform Pickupdestination;
     public bool somethinginhand;
+    public GameObject target;
 
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && somethinginhand == false)
+        if (Input.GetKey(KeyCode.E) && somethinginhand == false)
         {
             if (Physics.Raycast(FPScamera.transform.position, FPScamera.transform.forward, out hit, pickuprange, layermask))
             {
                 somethinginhand = true;
                 target = hit.collider.transform.gameObject;
-                target.Rigidbody.useGravity = false;
-                target.transform.SetParent(transform FPScamera);
-
-                /*
-                Rigidbody body = hit.collider.GetComponent<Rigidbody>();
-                body.useGravity = false;
-                body.transform.position = Pickupdestination.position; 
-                */
+                target.GetComponent<Rigidbody>().useGravity = false;
+                target.GetComponent<Collider>().enabled = false;
+                target.transform.SetParent(Pickupdestination);
+                Debug.Log("picked something up");
             }
         }
 
-        if (somethinginhand == true && Input.GetKeyDown(KeyCode.E))
+        if (somethinginhand == true && Input.GetKey(KeyCode.Q))
         {
 
             somethinginhand = false;
-            this.transform.parent = null;
-            GetComponent<Rigidbody>().useGravity = true;
+            target.GetComponent<Collider>().enabled = true;
+            target.GetComponent<Rigidbody>().useGravity = true;
+            target.transform.SetParent(null);
+            Debug.Log("hopefully dropped something");
         }
     }
 
