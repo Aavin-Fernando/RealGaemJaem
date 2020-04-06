@@ -9,10 +9,10 @@ public class pickup : MonoBehaviour
     public RaycastHit hit;
     public float pickuprange;
     public LayerMask pickupableobjects;
-    public float pickupspeed;
     public Transform Pickupdestination;
-    public bool somethinginhand;
     public GameObject target;
+
+    public bool somethinginhand;
 
 
     private void Update()
@@ -25,6 +25,8 @@ public class pickup : MonoBehaviour
                 target = hit.collider.transform.gameObject;
                 target.GetComponent<Rigidbody>().useGravity = false;
                 target.GetComponent<Collider>().enabled = false;
+                target.transform.position = Pickupdestination.position;
+                target.transform.rotation = Pickupdestination.rotation;
                 target.transform.SetParent(Pickupdestination);
                 Debug.Log("picked something up");
             }
