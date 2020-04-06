@@ -1,0 +1,31 @@
+Base path: 'C:/Users/Aavin/Documents/UNITY(editors)/2019.3.7f1/Editor/Data', plugins path 'C:/Users/Aavin/Documents/UNITY(editors)/2019.3.7f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=10384 outsize=735568 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=40246 outsize=35450 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=22295 outsize=14637 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7841 outsize=7132 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5168 outsize=899 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15784 outsize=30713 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15784 outsize=37198 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15784 outsize=41779 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15784 outsize=57627 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3971 outsize=4173 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=11069 outsize=8912 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7392 outsize=810 kw=_NORMALMAP_TANGENT_SPACE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7278 outsize=1834 kw=UNITY_PASS_MOTIONVECTORS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Unhandled exception: Protocol error - unexpected end of data (did the Editor crash?)
+
+Quitting shader compiler process
