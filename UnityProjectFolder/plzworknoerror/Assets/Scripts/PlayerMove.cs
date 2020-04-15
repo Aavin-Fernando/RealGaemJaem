@@ -56,21 +56,7 @@ public class PlayerMove : MonoBehaviour
 
     IEnumerator waitingInAir(){
         yield return new WaitForSeconds(airWaitTime);
-        while(x != 0 || z != 0){
-            while(x != 0){
-                if(x > 0){
-                x -= jumpMovementSpeedDeclineRate;    
-                }else if(x <0){
-                x += jumpMovementSpeedDeclineRate;
-                }
-            }
-            while(x != 0){
-                if(z > 0){
-                x -= jumpMovementSpeedDeclineRate;    
-                }else if(z <0){
-                x += jumpMovementSpeedDeclineRate;
-                }
-            }
-        }
+        x = 0f;
+        z = 0f;
     }
 }
